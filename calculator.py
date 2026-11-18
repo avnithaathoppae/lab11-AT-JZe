@@ -31,6 +31,7 @@ def log(a, b):
         raise ValueError("Error. Invalid logarithm arguments")
 
 def exp(a, b):
+    return a ** b
 
 
 def add(a, b):
